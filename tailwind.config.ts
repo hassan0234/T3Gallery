@@ -13,6 +13,16 @@ export default {
         foreground: "var(--foreground)",
       },
     },
+    fontFamily: {
+      sans: ["var(--font-geist-sans)"],
+      mono: ["var(--font-geist-mono)"],
+    },
+    container: {
+      center: true,
+      screens: {
+        "2xl": "1400px",
+      },
+    },
   },
   plugins: [],
 } satisfies Config;
