@@ -1,5 +1,8 @@
 import Image from "next/image";
 import { db } from "~/server/prisma/db";
+
+export const dynamic = "force-dynamic";
+
 const mockImages = [
   "https://utfs.io/f/4033f3b2-0fc9-4a6e-95be-37009f50e078-7qajqq.png",
   "https://utfs.io/f/93fe9634-fea2-4314-956b-7ae7f700ae5b-qa0vsq.png",
